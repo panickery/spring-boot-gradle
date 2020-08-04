@@ -27,3 +27,7 @@ STEPS
   
  7. Excute Project
   - CMD -> Type "java -jar build/libs/readinglist-0.0.1-SNAPSHOT.jar"
+ 
+ 8. Execute Browser to Check All done
+  - http://localhost:8080
+   404 Not Found -> It's done
