@@ -1,4 +1,4 @@
-#Start Spring-boot-gradle project
+# Start Spring-boot-gradle project
 
 STEPS
 
