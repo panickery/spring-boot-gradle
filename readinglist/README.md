@@ -4,7 +4,7 @@ STEPS
 
 1. Download spring-boot-cli
  - http://repo.spring.io/release/org/springframework/boot/spring-boot-cli/1.3.6.RELEASE/spring-boot-cli-1.3.6.RELEASE-bin.zip
- Other versions :: https://repo.spring.io/release/org/springframework/boot/spring-boot-cli
+ - Other versions :: https://repo.spring.io/release/org/springframework/boot/spring-boot-cli
   
 2. Add Spring-boot-cli to Environment Path
  - Win + R -> Type "sysdm.cpl" -> Advanced Settings ...
@@ -17,7 +17,7 @@ STEPS
  --artifactId=readinglist --name="Reading List" --package-name=readinglist \
  --description="Reading List Demo" --build gradle readinglist"
  
- PS. \ is line feed
+ - PS. \ is line feed
  
  5. Execute Project
   - CMD -> Type "gradlew.bat bootRun"
