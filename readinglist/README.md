@@ -3,7 +3,7 @@
 STEPS
 
 1. Download spring-boot-cli
- - http://repo.spring.io/release/org/springframework/boot/spring-boot-cli/1.3.6.RELEASE/spring-boot-cli-1.3.6.RELEASE-bin.zip
+ - https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/1.3.6.RELEASE/spring-boot-cli-1.3.6.RELEASE-bin.zip
  - Other versions :: https://repo.spring.io/release/org/springframework/boot/spring-boot-cli
   
 2. Add Spring-boot-cli to Environment Path
