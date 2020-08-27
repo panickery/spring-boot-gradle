@@ -1,0 +1,25 @@
+spring init -d=web,thymeleaf,data-jpa,h2 --groupId=com.manning --artifactId=readinglist --name="Reading List" --package-name=readinglist --description="Reading List Demo" --build gradle readinglist
+
+spring-1.3.6.RELEASE/bin/spring init -d=web,thymeleaf,data-jpa,h2 --groupId=com.manning --artifactId=readinglist --name="Reading List" --package-name=readinglist --description="Reading List Demo" --build gradle readinglist
+
+gradlew bootRun
+
+오류 발생
+
+Could not target platform: 'Java SE 11' using tool chain: 'JDK 8 (1.8)'.
+
+gradle 기본 자바가 Java SE 11로 설정되어 있고 서버에는 JDK 8 (1.8)이 설치되어 있어 발생한 문제 인 것 같다.
+
+그래서 build.gradle 파일을 열어서
+sourceCompatibility = 1.8로 수정
+
+그래도 문제가 발생했는데 서버가 거의 엄청나게 느려서저 재접했는데(세션을 닫지 않고)
+재접도 속도가 느린것 + gradle이 강제종료 되고 메모리 오류 exit 137? 이 난 걸로 봐서 메모리 부족인것으로 보임
+
+.gradle/gradle.properties
+파일 생성하고 항목 추가
+
+org.gradle.jvmargs=-Xmx128m
+아 1024m은 1G인데
+128m으로 수정
+
