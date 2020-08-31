@@ -33,3 +33,17 @@ STEPS
   - 404 Not Found -> It's done
    
   ~ P.53
+
+ - Dependency
+ -- gradle : gradlew.bat dependencies
+ -- maven  : maven dependency:tree
+
+ - Dependency exclude
+ P.63
+ 
+ - Dependency Other Version
+ P.64
+ 
+ 
+ 
+ 
